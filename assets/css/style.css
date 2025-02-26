@@ -878,7 +878,8 @@ footer :hover {
         /* background-color: #ececec !important; */
         background-image: url(../img/background-talet.png);
         background-repeat: no-repeat;
-        background-size: 100% 90%;
+        background-size: 100% 100%;
+        background-position: center;
     }
 
 
