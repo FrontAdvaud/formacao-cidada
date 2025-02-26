@@ -564,6 +564,11 @@ footer :hover {
 
 }
 
+.img_questao{
+    width: 30%;
+
+}
+
 
 
 @media screen and (max-width: 1440px) {
@@ -752,7 +757,14 @@ footer :hover {
     .img-conteudo-10 {
         width: 75%;
 
+        
     }
+
+    .img_questao{
+        width: 70%;
+    
+    }
+    
 
 
 
