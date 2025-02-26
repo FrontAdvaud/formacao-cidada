@@ -30,6 +30,10 @@ body {
 
 }
 
+
+
+
+
 .body_person {
     font-family: 'Poppins-Regular' !important;
     height: 100%;
@@ -346,8 +350,18 @@ footer {
 }
 
 footer a {
+    border: 2px solid #ffff;
+    padding: 9px;
     font-size: 1rem;
     text-decoration: none;
+    border-radius: 30px;
+
+}
+
+footer :hover {
+    background: #ffff;
+    color: black !important;
+
 
 }
 
@@ -469,6 +483,14 @@ footer a {
 
 }
 
+.img-conteudo-11 {
+    width: 70%;
+
+}
+
+.img-conteudo-14 {
+    width: 100%
+}
 
 .box_link_youtube a {
 
@@ -486,8 +508,6 @@ footer a {
 .link-youtube a {
     color: black;
     text-decoration: none;
-
-
 
 }
 
@@ -508,8 +528,27 @@ footer a {
 
 }
 
+.box_ul {
+    background: rgb(255 0 0 / 16%);
+    border-radius: 16px;
+}
+
+.color_tr{
+    background-color: #f8d7da; /* Vermelho claro */
+
+}
 
 
+
+.table>:not(caption)>*>* {
+    padding: .5rem .5rem;
+    color: var(--bs-table-color-state, var(--bs-table-color-type, var(--bs-table-color)));
+    background-color: var(--bs-table-bg);
+    border-bottom-width: var(--bs-border-width);
+    box-shadow: inset 0 0 0 9999px var(--bs-table-bg-state, var(--bs-table-bg-type, var(--bs-table-accent-bg)));
+    border: 1px solid black;
+   
+}
 
 
 
@@ -523,9 +562,9 @@ footer a {
         background-image: url(../img/background-desktop.png);
         background-repeat: no-repeat;
         background-size: 100% 100%;
-
-
     }
+
+
 
 
     .body_person_quest {
@@ -582,6 +621,12 @@ footer a {
 
     } */
 
+    .img-logo {
+        width: 12vw;
+    }
+
+
+
 }
 
 
@@ -591,6 +636,8 @@ footer a {
         margin-top: 22%;
 
     }
+
+
 }
 
 @media screen and (width: 1024px) {
@@ -729,15 +776,13 @@ footer a {
 
 
     .img-logo {
-        width: 32vw !important;
+        width: 150px;
     }
 
     .img-logo_result {
         width: 46vw !important;
 
     }
-
-
 
 
     .box_tex_forma {
