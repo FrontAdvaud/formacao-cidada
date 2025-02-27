@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>APROFEM</title>
+        <link rel="stylesheet" href="./assets/bootstrap-5.3.2/css/bootstrap-grid.css">
+        <link rel="stylesheet" href="./assets/bootstrap-5.3.2/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./assets/css/style.css">
+    </head>
+    <body>
+        <div class="container-fluid p-0  ">
+            <!-- inicio header -->
+            <header class="justify-content-center d-flex">
+                <img class="img-logo" src="./assets/img/logo-white-text.png" alt="">
+            </header>
+            <!-- fim header -->
+            <div class="row d-flex flex-column align-items-center box m-1">
+                <div class="conteudo_text col-12 col-md-8 col-lg-5  d-flex  flex-row p-0 m-0 mt-person ">
+                    <div class="   mt-person ">
+                        <div class="box_tex_forma d-flex justify-content-center align-items-center mb-2 ">
+                            <p class="text-uppercase mb-0 text-white fw-bold  ">Formação em rede</p>
+                        </div>
+                        <p class="  txt_topo text-uppercase mb-0  ">
+                            Celulares nas escolas: normativas,
+                            <br>
+                            uso pedagógico e desafios
+                        </p>
+                    </div>
+                    <div class="box_container_img d-flex justify-content-center  desktop">
+                        <img class="img-formacao " src="./assets/img/formacao_rede.png" alt="">
+                    </div>
+                </div>
+                <div class="col-12 col-md-8 col-lg-5 mt-5">
+                    <div class="d-flex justify-content-center flex-column">
+                        <div class="d-flex justify-content-center  flex-column align-items-center">
+                            <label class="m-2 mb-0 pb-0 mb-1 txt_label fw-bold ml-3 text-center">
+                                Digite seu RF para baixar seu atestado
+                            de participação
+                            </label>
+                            <form action="" method="post">
+                                <div class="input-group mb-3 m-1 ml-0 input_person d-flex justify-content-center ">
+                                    <input
+                                        type="text"
+                                        name="identificador"
+                                        id="identificador"
+                                        minlength="3"
+                                        maxlength="9"
+                                        class="form-control number"
+                                        placeholder="Digite seu RF"
+                                        required
+                                    >
+                                    <button type="submit" class="btn btn-primary ">Acessar</button>
+                                </div>
+                            </form>
+                            <div class="alert alert-danger d-none" role="alert"></div>
+                            <p class="txt_info mt-2 text-center text-white">
+                                <b>
+                                    A atividade estava disponível até às 23h59min do dia 5 de
+                            março de 2025.
+                                </b>
+                            </p>
+                            <button type="button" class="btn btn-primary mt-3">
+                                <a class="text-white" href="#">Não sou filiado e gostaria de fazer a atividade</a>
+                            </button>
+                            <a href="https://www.aprofem.com.br/formacao-em-rede-4-feira-de-cinzas" class="text-center mt-3 text text-white" target="_blank">
+                                Mais informações sobre a atividade Espaço
+                            Formação
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- inicio footer -->
+            <footer style="position: fixed;bottom: 40px;right: 0px; " class=" text-center d-flex justify-content-center  align-items-center ">
+                <a class="text-uppercase text-white" href="https://portal.aprofem.com.br/" target="_blank">
+                    Acesse o Portal
+                Aprofem
+                </a>
+            </footer>
+        </div>
+        <script type="text/javascript">
+        document.addEventListener("input", function (evt) {
+            if (evt.target.classList.contains("number")) {
+                evt.target.value = evt.target.value.replace(/[^0-9\-.,]/g, '');
+                if (evt.target.maxLength && evt.target.maxLength < evt.target.value.length) {
+                    evt.target.value = evt.target.value.slice(0, -1);
+                }
+            }
+        });
+        </script>
+    </body>
+</html>

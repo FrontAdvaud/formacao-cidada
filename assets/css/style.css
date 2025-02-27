@@ -733,9 +733,11 @@ footer :hover {
 
 @media screen and (max-width: 820px) {
 
-    body {
+     body {
         background-image: url(../img/bg-tablet.png);
-    }
+    } 
+
+
 
     .img-logo {
         width: 23vw;
@@ -829,6 +831,8 @@ footer :hover {
 }
 
 @media screen and (max-width: 540px) {
+
+    
 
     .desktop {
         display: none !important;
