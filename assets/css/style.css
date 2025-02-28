@@ -27,6 +27,7 @@ body {
     background-repeat: no-repeat;
     background-size: 100% 100%;
     background-position: left;
+    font-size: 20px;
 
 
 }
@@ -583,7 +584,15 @@ footer :hover {
 
 .box_conteudo ul {
     text-align: justify;
+   
 }
+.box_conteudo li {
+   
+    margin-bottom: 20px;
+   
+}
+
+
 
 
 .texto-justificado {
