@@ -53,7 +53,8 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    background-attachment: fixed; /* 🔥 Efeito Parallax */
+    background-attachment: fixed;
+    /* 🔥 Efeito Parallax */
     font-size: 20px;
 }
 
@@ -390,7 +391,7 @@ body {
 
 .txt_info {
     font-size: 0.8rem;
-    width: 80%;
+    ;
 }
 
 
@@ -482,6 +483,14 @@ footer :hover {
     border-radius: 8px;
 }
 
+.alert-person-3 {
+    color: #004085;
+    background-color: #cce5ff6e;
+    border: 1px solid #b8daff75;
+    font-size: 99px !important;
+    border-radius: 8px;
+}
+
 
 
 .img-person {
@@ -510,7 +519,7 @@ footer :hover {
 
 .txt_info {
     font-size: 0.8rem;
-    width: 80%;
+
 
 }
 
@@ -601,20 +610,30 @@ footer :hover {
 
     width: 40%;
 }
+
 .img-conteudo-20 {
 
     width: 100%;
 }
+
 .img-conteudo-24 {
 
     width: 60%;
     height: 300px;
 }
+
 .img-conteudo-25 {
 
     width: 55%;
- 
+
 }
+.img-conteudo-27 {
+
+    width: 40%;
+
+}
+
+
 
 .img-17-style {
     width: 30%;
@@ -676,6 +695,10 @@ footer :hover {
     background-color: #f8d7da;
     /* Vermelho claro */
 
+}
+
+.btn_portal {
+    min-width: 400px;
 }
 
 
@@ -783,6 +806,29 @@ footer :hover {
 .box_material img {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
+
+.box-verificacao {   
+    border-radius: 17px;
+    background: white;
+}
+
+.box-verificacao p {
+    font-size: 16px;
+}
+
+.box-verificacao h3 {
+    font-size: 22px;
+}
+
+.btn_verifica {
+    width: 250px;
+
+}
+
+
+
+
+
 
 
 
@@ -1000,6 +1046,21 @@ footer :hover {
         width: 70%;
 
     }
+
+    .box-verificacao p {
+        font-size: 15px;
+    }
+
+    .box-verificacao h3 {
+        font-size: 19px;
+    }
+
+    .btn_verifica {
+        width: 250px;
+
+    }
+
+
 
 
 
