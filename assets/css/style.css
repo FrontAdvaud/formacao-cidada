@@ -52,10 +52,11 @@ body {
     background-image: url(../img/background_1920.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* 🔥 Efeito Parallax */
     font-size: 20px;
-
-
 }
+
 
 .font-bold {
     font-family: "Poppins-Bold";
@@ -467,8 +468,16 @@ footer :hover {
 
 .alert-person {
     color: #000000;
-    background-color: #f7931e5c;
-    border: 1px solid #F7931E;
+    background-color: #fffffffd;
+    border: 1px solid #b8daff;
+    font-size: 15px;
+    border-radius: 8px;
+}
+
+.alert-person-2 {
+    color: #004085;
+    background-color: #cce5ff6e;
+    border: 1px solid #b8daff75;
     font-size: 15px;
     border-radius: 8px;
 }
@@ -566,6 +575,7 @@ footer :hover {
     width: 50%;
 
 }
+
 .img-conteudo-13 {
     width: 50%;
 
@@ -577,9 +587,48 @@ footer :hover {
     width: 100%
 }
 
+.img-conteudo-15 {
+
+    width: 100%;
+}
+
+.img-conteudo-16 {
+
+    width: 40%;
+}
+
+.img-conteudo-17 {
+
+    width: 40%;
+}
+.img-conteudo-20 {
+
+    width: 100%;
+}
+.img-conteudo-24 {
+
+    width: 60%;
+    height: 300px;
+}
+.img-conteudo-25 {
+
+    width: 55%;
+ 
+}
+
 .img-17-style {
     width: 30%;
 
+}
+
+.img-conteudo-18 {
+
+    width: 50%;
+}
+
+.img-conteudo-19 {
+
+    width: 50%;
 }
 
 .box_link_youtube a {
