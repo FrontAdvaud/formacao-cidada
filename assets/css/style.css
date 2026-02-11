@@ -185,7 +185,7 @@ body {
 }
 
 .box_btn_avan {
-    justify-content: center;
+    justify-content: end;
 }
 
 .progress-custom {
@@ -268,9 +268,9 @@ body {
     margin-top: 58px;
     width: 30px;
     height: 90px;
-    border-right: 2px solid #00FF00;
-    border-top: 2px solid #00FF00;
-    border-bottom: 2px solid #00FF00;
+    border-right: 2px solid #F7931E;
+    border-top: 2px solid #F7931E;
+    border-bottom: 2px solid #F7931E;
     border-radius: 0px 10px 10px 0px;
 }
 
@@ -359,11 +359,7 @@ body {
     border: #00368c;
 } */
 
-.btn_person {
-    border-radius: 20px;
 
-
-}
 
 .scrollable-div {
     background-color: #ffff;
@@ -456,8 +452,8 @@ footer :hover {
     height: 30px;
     width: 233px;
     padding-top: 4px;
-    color: #00FFFF;
-    border: 2.1px solid #00FF00;
+    color: white;
+    border: 2.1px solid #F7931E;
     border-radius: 6px 6px 6px 0px;
 }
 
@@ -467,9 +463,14 @@ footer :hover {
     padding: 3px 5px 3px 10px;
     margin-left: -10px;
     border-top-left-radius: 37px;
+}
 
-
-
+.alert-person {
+    color: #000000;
+    background-color: #f7931e5c;
+    border: 1px solid #F7931E;
+    font-size: 15px;
+    border-radius: 8px;
 }
 
 
@@ -545,7 +546,7 @@ footer :hover {
 }
 
 .img-conteudo-9 {
-    width: 75%;
+    width: 50%;
 
 }
 
@@ -558,6 +559,15 @@ footer :hover {
 
 .img-conteudo-11 {
     width: 70%;
+
+}
+
+.img-conteudo-12 {
+    width: 50%;
+
+}
+.img-conteudo-13 {
+    width: 50%;
 
 }
 
