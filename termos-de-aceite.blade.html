@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<!-- <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>APROFEM</title>
+    <link rel="stylesheet" href="{{ asset('assets/bootstrap-5.3.2/css/bootstrap-grid.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/bootstrap-5.3.2/css/bootstrap.min.css')}}">
+    <link rel="stylesheet" href="{{ asset('assets/css/style.css')}}">
+</head> -->
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>APROFEM</title>
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet"
+            href="../../assets/bootstrap-5.3.2/css/bootstrap-grid.css">
+        <link rel="stylesheet"
+            href="../../assets/bootstrap-5.3.2/css/bootstrap.min.css">
+
+        <!-- CSS próprio -->
+        <link rel="stylesheet" href="../../assets/css/style.css">
+    </head>
+<body>
+    <div class="container-fluid p-0  ">
+           <!-- inicio header -->
+           <header class="justify-content-center d-flex">
+            <img class="img-logo" src="./assets/img/logo-white-text.png" alt="Logo APROFEM">
+             <img class="img-logo-mobile my-3" src="./assets/img/logo-white-text.png" alt="Logo APROFEM ">
+        </header>
+            <!-- fim header -->
+		<div class="row d-flex flex-column align-items-center box m-1">
+			<div class="conteudo_text col-12 col-md-11 col-lg-5 justify-content-center  d-flex  flex-row p-0   ">
+				<div class="d-flex flex-column bg-white p-3 align-items-center rounded">
+					<h2 class="text-uppercase mb-0 text-center text-b "><b>Termos</b> </h2>
+					<div class=" mt-2 text-black p-2">
+						<p class="text-center ">Declaro, para os devidos fins, que participei da atividade FORMAÇÃO EM REDE, com o tema <b>“Letramento Ético e Pensamento Crítico na era digital"</b>, tendo acessado, percorrido e estudado integralmente o conteúdo disponibilizado on-line, bem como realizado as questões de fixação propostas, concluindo a referida atividade.</p>
+
+						<P class="text-center"><b>São Paulo, 18 de Fevereiro de 2026.</b></P>
+
+					</div>
+					<div class=" d-flex justify-content-center">
+						<form action="{{ route('confirmar-termos', [$uuid])}}" method="post">
+							@csrf
+							<button type="submit" class="btn bg-success m-2 d-flex justify-content-center align-items-center text-white"> Eu Aceito
+							</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="footer-questao text-center d-flex justify-content-center  align-items-center">
+		<a class="text-uppercase text-white  " href="https://portal.aprofem.com.br/" target="_blank"> Acesse o Portal Aprofem</a>
+	</footer>
+</body>
+
+</html>
