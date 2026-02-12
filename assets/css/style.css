@@ -165,6 +165,12 @@ body {
     z-index: 999 !important;
 }
 
+.img-logo-formacao {
+    width: 33vw;
+
+
+}
+
 .img-logo-mobile {
     width: 9vw;
     display: none;
@@ -632,6 +638,7 @@ footer :hover {
     width: 40%;
 
 }
+
 .img-conteudo-37 {
     width: 40%;
 
@@ -811,7 +818,7 @@ footer :hover {
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.box-verificacao {   
+.box-verificacao {
     border-radius: 17px;
     background: white;
 }
@@ -959,6 +966,15 @@ footer :hover {
     body {
         background-image: url(../img/background_768.png);
         background-size: cover;
+    }
+
+
+
+
+    .img-logo-formacao {
+        width: 64vw;
+
+
     }
 
 
@@ -1196,6 +1212,12 @@ footer :hover {
 
     .img-conteudo-5 {
         width: 100%;
+
+    }
+
+    .img-logo-formacao {
+        width: 81vw;
+
 
     }
 
