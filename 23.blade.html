@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>APROFEM</title>
+
+        <!-- Bootstrap -->
+        <link rel="stylesheet"
+            href="../../assets/bootstrap-5.3.2/css/bootstrap-grid.css">
+        <link rel="stylesheet"
+            href="../../assets/bootstrap-5.3.2/css/bootstrap.min.css">
+
+        <!-- CSS próprio -->
+        <link rel="stylesheet" href="../../assets/css/style.css">
+    </head>
+
+    <body>
+        <div class="container p-0">
+            <!-- inicio header -->
+            <header class="justify-content-center d-flex">
+                <img class="img-logo-mobile my-3"
+                    src="./assets/img/logo-white-text.png"
+                    alt>
+            </header>
+
+            <div class="row d-flex flex-column align-items-center box m-1">
+                <div
+                    class="conteudo_text col-12 col-md-8 col-lg-12 d-flex p-0 m-0 mt-person">
+                    <div>
+                        <img class="img-logo-formacao"
+                            src="{{ asset('assets/img/logo_formacao.png') }}"
+                            alt="Letramento Ético e Pensamento Crítico Educação na Era Digital">
+
+                    </div>
+                    <div>
+                        <img class="img-logo"
+                            src="{{ asset('assets/img/logo-white-text.png') }}"
+                            alt="APROFEM">
+                    </div>
+                </div>
+
+                <!-- Botões topo -->
+                <div class="box_btn_avan d-flex ">
+                    <form action="#" method="post">
+                        <div class="my-3">
+                            <a href="{{route('ver-capitulo', [$uuid, 22])}}"
+                                class="btn btn-secondary btn_person">
+
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    width="20" height="20" fill="currentColor"
+                                    class="bi bi-arrow-left-circle"
+                                    viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z" />
+                                </svg>
+                                Voltar
+                            </a>
+
+                            <a href="{{route('ver-capitulo', [$uuid, 24])}}"
+                                class="btn btn-secondary btn_person">
+                                Próximo
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    width="20" height="20" fill="currentColor"
+                                    class="bi bi-arrow-right-circle"
+                                    viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+                                </svg>
+                            </a>
+
+                        </div>
+                    </form>
+                </div>
+
+                <!-- Conteúdo -->
+                <div
+                    class="box_conteudo p-2 col-11 col-md-10 col-lg-12 bg-white border">
+                    <div class="d-flex justify-content-center ml-3 ">
+                        <div class="mt-3 col-11 col-md-7 col-lg-3">
+                            <div class="progress progress-custom">
+                                <span class="progress-text">Conteúdo
+                                    23/42</span>
+                                <div class="progress-bar bg-barra"
+                                    role="progressbar"
+                                    style="width: 54.761905%;"
+                                    aria-valuenow="23" aria-valuemin="0"
+                                    aria-valuemax="42"> </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row m-0 p-3">
+                        <div class="col-12 col-md-12 col-lg-6 mt-2">
+                            <p><b>7. Redes sociais e aplicativos de
+                                    mensagem</b></p>
+                            <p>
+                                Nas redes sociais (Instagram, TikTok, Facebook,
+                                X, YouTube, LinkedIn etc), o conteúdo tende a
+                                ser mais público e rastreável. Pode ganhar
+                                grande alcance pelo feed e pelas recomendações.
+                                Já nos aplicativos de mensagem (WhatsApp,
+                                Telegram etc) a circulação ocorre em grupos e
+                                conversas fechadas, muitas vezes por
+                                encaminhamentos sem origem clara, o que facilita
+                                boatos e dificulta rastrear a fonte (UNESCO,
+                                2011).
+
+                            </p>
+                            <p>Em linguagem simples:</p>
+                            <p>Assim, a diversidade de perspectivas diminui,
+                                porque o sistema “filtra” o que é diferente e
+                                prioriza o que confirma suas preferências</p>
+                            <ul>
+                                <li class="m-0">Rede social: “vitrine” com
+                                    alcance amplo.</li>
+                                <li class="m-0">Aplicativo de mensagem: “grupos”
+                                    com circulação rápida e pouca
+                                    transparência.</li>
+                            </ul>
+
+                        </div>
+                        <div
+                            class="col-12 col-md-12 col-lg-6 mt-2 d-flex ">
+                            <div
+                                class="col-12  col-md-12 col-lg-12  row d-flex justify-content-center ">
+                                <img class="img-conteudo-15"
+                                    src="{{ asset('assets/img/img-23.png') }}"
+                                    alt>
+
+                                <p class="txt_creditos text-center">
+                                    Fonte:
+                                    https://www.facebook.com/CHARGISTACAZO/?locale=pt_BR
+                                    ​</p>
+                            </div>
+                        </div>
+
+                        <div class="col-12">
+                            <div class="alert-person p-3 my-3">
+                                <p class="mb-0"><b>Exemplos:</b></p>
+                                <p>
+                                    <b>No cotidiano:</b> uma notícia falsa pode
+                                    viralizar no TikTok por um vídeo chamativo;
+                                    no WhatsApp, ela pode circular como áudio ou
+                                    print encaminhado com “cara de verdade”.
+
+                                </p>
+                                <p>
+                                    <b>Na escola:</b> um caso vira post no
+                                    Instagram e se espalha para fora da
+                                    comunidade escolar; ao mesmo tempo, áudios e
+                                    prints sem fonte circulam em grupos de
+                                    responsáveis, aumentando confusão antes do
+                                    comunicado oficial.
+
+                                </p>
+                                <div class="alert-person-2 p-3 ">
+                                    <p>
+                                        <b>Para fixar:</b>
+                                        Rede social é “vitrine” (alcança muita
+                                        gente). Mensagens são “corredores”
+                                        (circulam rápido por confiança e
+                                        encaminhamento). O risco é diferente,
+                                        mas a responsabilidade é a mesma.
+
+                                    </p>
+                                    <p>
+                                        <b>>>>> Na escola, o que fazer
+                                            amanhã:</b>
+                                        Defina um combinado simples para grupos:
+                                        informações sensíveis só por canal
+                                        oficial (comunicado/secretaria/direção).
+                                        Se surgir boato, a orientação padrão é:
+                                        não repassar; encaminhar para a equipe
+                                        responsável; aguardar confirmação.
+
+                                    </p>
+                                </div>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Botões rodapé -->
+                <div class="d-flex justify-content-center">
+                    <form action="#" method="post">
+                        <div class="my-3">
+                            <a href="{{route('ver-capitulo', [$uuid, 22])}}"
+                                class="btn btn-secondary btn_person">
+
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    width="20" height="20" fill="currentColor"
+                                    class="bi bi-arrow-left-circle"
+                                    viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0m-4.5-.5a.5.5 0 0 1 0 1H5.707l2.147 2.146a.5.5 0 0 1-.708.708l-3-3a.5.5 0 0 1 0-.708l3-3a.5.5 0 1 1 .708.708L5.707 7.5z" />
+                                </svg>
+                                Voltar
+                            </a>
+
+                            <a href="conteudo_24.html"
+                                class="btn btn-secondary btn_person">
+                                Próximo
+                                <svg xmlns="http://www.w3.org/2000/svg"
+                                    width="20" height="20" fill="currentColor"
+                                    class="bi bi-arrow-right-circle"
+                                    viewBox="0 0 16 16">
+                                    <path fill-rule="evenodd"
+                                        d="M1 8a7 7 0 1 0 14 0A7 7 0 0 0 1 8m15 0A8 8 0 1 1 0 8a8 8 0 0 1 16 0M4.5 7.5a.5.5 0 0 0 0 1h5.793l-2.147 2.146a.5.5 0 0 0 .708.708l3-3a.5.5 0 0 0 0-.708l-3-3a.5.5 0 1 0-.708.708L10.293 7.5z" />
+                                </svg>
+                            </a>
+
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </body>
+
+</html>

@@ -65,6 +65,7 @@ body {
 
 .font-semi-bold {
     font-family: "Poppins-Medium";
+
 }
 
 .body_person {
@@ -1334,4 +1335,18 @@ footer :hover {
         font-weight: bold;
         font-size: 1.7rem;
     }
+}
+
+
+
+.titulo_blue{
+    color:#0070C0;
+    text-transform: uppercase;
+    font-size: 24px;
+
+
+}
+
+.txt-laranja{
+    color: #e78007;
 }
