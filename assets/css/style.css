@@ -625,7 +625,7 @@ footer :hover {
 .img-conteudo-24 {
 
     width: 60%;
-    
+
 }
 
 .img-conteudo-25 {
@@ -1342,7 +1342,7 @@ footer :hover {
 .titulo_blue {
     color: #0070C0;
     text-transform: uppercase;
-    font-size: 24px; 
+    font-size: 24px;
 
 
 }
@@ -1398,14 +1398,32 @@ footer :hover {
     margin-left: 4px;
 }
 
-.box_destaque{
-    background:#e7800730;
+.box_destaque {
+    background: #e7800730;
     border-radius: 16px;
-    border: 1px solid #e78007 ;
+    border: 1px solid #e78007;
 }
 
-.box_destaque_2{
+.box_destaque_2 {
     background-color: rgb(204 229 255);
     border-left: 4px solid #00368c;
-    
+
+}
+
+.btn-laranja {
+    background-color: #e78007;
+
+}
+
+.btn-laranja :hover {
+    background-color: #af6108 !important;
+    color: red !important;
+
+}
+
+
+
+.card p {
+    font-size: 15px;
+    text-align: left !important;
 }
