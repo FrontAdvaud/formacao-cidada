@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+	<!-- <head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>APROFEM</title>
+	<link rel="stylesheet" href="{{ asset('assets/bootstrap-5.3.2/css/bootstrap-grid.css')}}">
+	<link rel="stylesheet" href="{{ asset('assets/bootstrap-5.3.2/css/bootstrap.min.css')}}">
+	<link rel="stylesheet" href="{{ asset('assets/css/style.css')}}">
+</head>
+ -->
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>APROFEM</title>
+
+		<!-- Bootstrap -->
+		<link rel="stylesheet"
+			href="../../assets/bootstrap-5.3.2/css/bootstrap-grid.css">
+		<link rel="stylesheet"
+			href="../../assets/bootstrap-5.3.2/css/bootstrap.min.css">
+
+		<!-- CSS próprio -->
+		<link rel="stylesheet" href="../../assets/css/style.css">
+	</head>
+	<body>
+		<div class="container-fluid p-0  ">
+			<!-- inicio header -->
+			<!-- <header class="justify-content-center d-flex">
+				<img class="img-logo" src="{{ asset('assets/img/logo-white-text.png') }}"
+					alt>
+			</header> -->
+
+			<header class="justify-content-center d-flex">
+				<img class="img-logo" src="./assets/img/logo-white-text.png"
+					alt="Logo APROFEM">
+				<img class="img-logo-mobile my-3"
+					src="./assets/img/logo-white-text.png" alt="Logo APROFEM ">
+			</header>
+			<!-- fim header -->
+			<div class="row d-flex justify-content-center align-items-center box m-1">
+				<div class="conteudo_text rounded  bg-white col-12 col-md-11 col-lg-5 justify-content-center  d-flex  flex-row p-0 m-0  ">
+					<div class="d-flex row ">
+						<svg xmlns="http://www.w3.org/2000/svg" width="70" height="70"
+							fill="currentColor" class="text-secondary bi bi-exclamation-circle-fill mt-4"
+							viewBox="0 0 16 16">
+							<path
+								d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0M8 4a.905.905 0 0 0-.9.995l.35 3.507a.552.552 0 0 0 1.1 0l.35-3.507A.905.905 0 0 0 8 4m.002 6a1 1 0 1 0 0 2 1 1 0 0 0 0-2" />
+						</svg>
+						<h3 class="text-uppercase mb-0 text-center titulo_blue  mt-4"><b>Atividade
+								ainda
+								não
+								disponível</b> </h3>
+						<p class="txt_info mt-2 text-center text-black" style="font-size: 20px;"> <b>A atividade estará
+								disponível dia 18 de fevereiro de 2026. </b></p>
+						<div class=" mt-2 text-white p-2">
+							<div class=" d-flex justify-content-center">
+								<a href="{{ route('inicio')}}" type="button"
+									class="btn bg-primary m-2 d-flex justify-content-center align-items-center text-white">
+									VOLTAR AO INICIO
+								</a>
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<footer
+				class="footer-questao text-center d-flex justify-content-center  align-items-center">
+				<a class="text-uppercase bg-white  " href="https://portal.aprofem.com.br/"
+					target="_blank"> Acesse o Portal Aprofem</a>
+			</footer>
+		</div>
+	</body>
+
+</html>
