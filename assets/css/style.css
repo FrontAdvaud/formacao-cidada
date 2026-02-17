@@ -1100,11 +1100,10 @@ footer :hover {
 
     }
 
-    .box_conteudo p {
-        text-align: left !important;
-        letter-spacing: 1px;
-        
+   
 
+    .titulo_blue {
+       word-spacing: -1px !important;
     }
 
 
